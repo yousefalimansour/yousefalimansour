@@ -17,7 +17,7 @@ I'm a backend developer with a focus on building scalable, maintainable APIs and
 ## Quick Links
 
 * GitHub: [github.com/yousefalimansour](https://github.com/yousefalimansour)
-* CV (PDF): [Drive — CV (new)](https://drive.google.com/file/d/15cWJVxhkcV4vxPRaYzN2692j0EN3ZHEk/view?usp=drivesdk)
+* CV (PDF): [Drive — CV (new)]([https://drive.google.com/file/d/15cWJVxhkcV4vxPRaYzN2692j0EN3ZHEk/view?usp=drivesdk](https://drive.google.com/file/d/10NB16Jr7PL8pE2syY8ugmYN-CpOstSta/view?usp=sharing))
 * Email: **[moradyousef954@gmail.com](mailto:moradyousef954@gmail.com)**
 * LinkedIn: [linkedin.com/in/yousef-morad](https://linkedin.com/in/yousef-morad)
 * LeetCode: [leetcode.com/yousef-ali-mansor](https://www.leetcode.com/yousef-ali-mansor)
