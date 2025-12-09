@@ -1,81 +1,197 @@
-# Hi 👋, I'm **Yousef Ali Mansour**
+<div align="center">
 
-<h3 align="left">A passionate Backend Developer</h3>
+# 👋 Hey there, I'm Yousef Ali Mansour
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=yousefalimansour&label=Profile%20views&color=0e75b6&style=flat" alt="yousefalimansour" /> </p>
+### Backend Engineer | Cloud Enthusiast | Problem Solver
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yousefalimansour" alt="yousefalimansour" /></a> </p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/yousefalimansour)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yousef-morad-622740308)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moradyousef954@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/yousef-ali-mansor)
 
----
+![Profile Views](https://komarev.com/ghpvc/?username=yousefalimansour&label=Profile%20Views&color=blueviolet&style=flat-square)
 
-## About Me
-
-I'm a backend developer with a focus on building scalable, maintainable APIs and backend systems. I enjoy working with Python/Django, cloud services, and databases. My goal is to deliver well-tested, production-ready backend services and to keep learning new tools and patterns.
-
----
-
-## Quick Links
-
-* GitHub: [github.com/yousefalimansour](https://github.com/yousefalimansour)
-* CV (PDF): [Drive — CV](https://drive.google.com/file/d/10NB16Jr7PL8pE2syY8ugmYN-CpOstSta/view?usp=sharing)
-* Email: **[moradyousef954@gmail.com](mailto:moradyousef954@gmail.com)**
-* LinkedIn: [linkedin.com/in/yousef-morad](https://linkedin.com/in/yousef-morad)
-* LeetCode: [leetcode.com/yousef-ali-mansor](https://www.leetcode.com/yousef-ali-mansor)
+</div>
 
 ---
 
-## What I Do
+## 🚀 About Me
 
-* Build RESTful APIs and microservices with **Django / Django REST Framework**.
-* Design database schemas and optimize queries (Postgres / MS SQL).
-* Deploy and manage apps on **AWS** and **Azure**.
-* Write unit/integration tests and maintain CI/CD pipelines.
-* Comfortable with Linux environments, Git workflows and container basics.
-
----
-
-## Languages & Tools
-
-<p align="left">
-  <a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="36" height="36"/></a>
-  <a href="https://www.djangoproject.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="django" width="36" height="36"/></a>
-  <a href="https://aws.amazon.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="36" height="36"/></a>
-  <a href="https://azure.microsoft.com"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="36" height="36"/></a>
-  <a href="https://www.w3schools.com/cpp/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="36" height="36"/></a>
-  <a href="https://www.w3schools.com/cs/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="36" height="36"/></a>
-  <a href="https://www.w3schools.com/css/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="36" height="36"/></a>
-  <a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="36" height="36"/></a>
-  <a href="https://www.w3.org/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="36" height="36"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="36" height="36"/></a>
-  <a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="36" height="36"/></a>
-  <a href="https://www.microsoft.com/en-us/sql-server"><img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="36" height="36"/></a>
-</p>
+```python
+class BackendDeveloper:
+    def __init__(self):
+        self.name = "Yousef Ali Mansour"
+        self.role = "Backend Engineer"
+        self.location = "Mansoura, Egypt"
+        self.education = "Computer & Information Science @ Mansoura University"
+        self.certifications = ["AWS Certified Cloud Practitioner"]
+        
+    def current_focus(self):
+        return [
+            "Building scalable REST APIs with Django & FastAPI",
+            "Architecting microservices and distributed systems",
+            "Cloud infrastructure on AWS",
+            "AI/ML integration in production systems"
+        ]
+    
+    def get_daily_routine(self):
+        return "Code → Test → Deploy → Optimize → Repeat 🔁"
+```
 
 ---
 
-## Selected Projects
+## 🛠️ Tech Stack
 
-> Check the `projects` pinned on my GitHub profile for source code, descriptions and live demos when available.
+<div align="center">
 
-* **Stock Alert System** — Django REST API to monitor stock prices and send alerts.
-* **Task Note Taker** — Browser extension + Django backend for quick notes and sync.
-* **System Alert (Ops)** — Backend systems for monitoring and alerting.
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Assembly](https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=assemblyscript&logoColor=white)
 
-*(Each project repo includes a README with setup and run instructions.)*
+### Frameworks & Libraries
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+### Databases & Caching
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### DevOps & Cloud
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Tools & Others
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
 
 ---
 
-## How to Reach / Hire Me
+## 💼 Featured Projects
 
-* Email: **[moradyousef954@gmail.com](mailto:moradyousef954@gmail.com)** — fastest way for collaboration offers.
-* LinkedIn: [linkedin.com/in/yousef-morad](https://linkedin.com/in/yousef-morad)
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏥 AI Medical Image Helper
+Production-grade healthcare platform with AI-powered chest X-ray and skin lesion analysis using Vision Transformer and ConvNeXt models.
+
+**Tech:** FastAPI · React · PostgreSQL · Docker · AI/ML
+
+[![Repo](https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yousefalimansour/Ai-image-medical-helper)
+
+</td>
+<td width="50%">
+
+### 📈 Stock Alert System
+Real-time stock price monitoring with automated email alerts. Distributed task processing with Celery & Redis.
+
+**Tech:** Django · DRF · Celery · Redis · Docker
+
+[![Repo](https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yousefalimansour/System-alert)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🚗 Smart Toll System
+Automated toll collection API with license plate recognition and JWT-based auth using Clean Architecture.
+
+**Tech:** .NET 9 · C# · EF Core · SQL Server · JWT
+
+[![Repo](https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yousefalimansour/SmartTollSystem)
+
+</td>
+<td width="50%">
+
+### ⚙️ x86 Microkernel
+Educational OS bootloader in x86 assembly with custom interrupt handlers and memory management.
+
+**Tech:** x86 Assembly · NASM · QEMU · BIOS
+
+[![Repo](https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yousefalimansour/x86-microkernel)
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
-## GitHub Stats & Languages
+## 📊 GitHub Analytics
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yousefalimansour&show_icons=true&locale=en&layout=compact" alt="yousefalimansour" /></p>
+<div align="center">
+  
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yousefalimansour&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yousefalimansour&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yousefalimansour&show_icons=true&locale=en" alt="yousefalimansour" /></p>
+</div>
 
+<div align="center">
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yousefalimansour&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+[![AWS Badge](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/8bd1e4b9-1601-481c-ad58-4df72ca33ab3/linked_in?t=slqzdf)
+
+<img src="https://github-profile-trophy.vercel.app/?username=yousefalimansour&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="trophies" />
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+I'm always open to interesting conversations and collaboration opportunities!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yousef-morad-622740308)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moradyousef954@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/yousef-ali-mansor)
+[![CV](https://img.shields.io/badge/Download_CV-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/10NB16Jr7PL8pE2syY8ugmYN-CpOstSta/view?usp=sharing)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 Dev Quote of the Day
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+### ✨ Fun Fact
+*"I debug with print statements and I'm not ashamed to admit it."* 😄
+
+---
+
+**⭐ If you like my work, consider giving my repos a star!**
+
+![Snake animation](https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/github-contribution-grid-snake-dark.svg)
+
+<sub>Made with ❤️ and lots of ☕</sub>
+
+</div>
