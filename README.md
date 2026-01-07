@@ -14,7 +14,7 @@
   <a href="https://www.leetcode.com/yousef-ali-mansor">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
-  <a href="https://drive.google.com/file/d/10NB16Jr7PL8pE2syY8ugmYN-CpOstSta/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1oxeKQH1YqK8cWy3Ir0Pc62-4HaUiNean/view?usp=sharing">
     <img src="https://img.shields.io/badge/CV-Resume-4CAF50?style=for-the-badge&logo=google-drive&logoColor=white" alt="Download CV" />
   </a>
 </p>
