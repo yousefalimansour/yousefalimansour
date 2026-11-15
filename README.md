@@ -1,183 +1,101 @@
 <div align="center">
 
-# 👋 Yousef Ali Mansour
-
-### Backend Software Engineer | Distributed Systems Architect | AWS Certified
+<img src="./assets/hero.svg" width="100%" alt="Yousef Ali Mansour, Backend Software Engineer. Event-driven and distributed systems with Python, C# / .NET and Go. AWS Certified Cloud Practitioner. Open to opportunities." />
 
 <p>
-  <a href="https://linkedin.com/in/yousef-morad-622740308">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:moradyousef954@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.leetcode.com/yousef-ali-mansor">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-  <a href="https://drive.google.com/file/d/1oxeKQH1YqK8cWy3Ir0Pc62-4HaUiNean/view?usp=sharing">
-    <img src="https://img.shields.io/badge/CV-Resume-4CAF50?style=for-the-badge&logo=google-drive&logoColor=white" alt="Download CV" />
-  </a>
+  <a href="https://linkedin.com/in/yousef-morad-622740308"><img src="./assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>
+  <a href="mailto:moradyousef954@gmail.com"><img src="./assets/btn-email.svg" height="40" alt="Email" /></a>
+  <a href="https://www.leetcode.com/yousef-ali-mansor"><img src="./assets/btn-leetcode.svg" height="40" alt="LeetCode" /></a>
+  <a href="https://drive.google.com/file/d/1oxeKQH1YqK8cWy3Ir0Pc62-4HaUiNean/view?usp=sharing"><img src="./assets/btn-resume.svg" height="40" alt="Résumé" /></a>
 </p>
 
-📍 Mansoura, Egypt • 📞 +20 1098433918
-
 </div>
 
----
+## About me
 
-## 💼 Professional Summary
+Backend engineer focused on **event-driven architectures** and **distributed systems**. I build REST APIs, real-time streaming pipelines and microservices, mostly in Python and .NET, with Go as my newest language. I'm studying Computer Science at Mansoura University.
 
-Backend Software Engineer specializing in **event-driven architectures** and **scalable distributed systems**. Building production-grade REST APIs, real-time streaming pipelines, and microservices infrastructure using modern cloud-native technologies. Currently pursuing Computer Science at Mansoura University while delivering robust backend solutions with Python, .NET, and emerging expertise in Go.
+- **Building now:** AI-powered backends, from RAG knowledge systems to autonomous agents
+- **Core work:** microservices that communicate through Kafka, Celery and Redis, behind REST APIs in Django REST Framework, FastAPI and ASP.NET Core
+- **Cloud:** AWS Certified Cloud Practitioner, shipping containerized services with Docker and CI/CD
+- **Open to:** backend and distributed-systems roles, and open-source collaboration
 
-**🎯 Engineering Focus:**
-- Architecting microservices with **event-driven communication** (Kafka, message queues)
-- Real-time data processing and streaming pipelines (**Apache Flink**, Celery, Redis)
-- Scalable REST APIs with Django REST Framework, FastAPI, and ASP.NET Core
-- Cloud-native deployments on **AWS** with containerization and CI/CD automation
-- AI/ML model integration in distributed production environments
+## How I build
 
-> **Building systems that scale, systems that stream, systems that last.**
+<img src="./assets/pipeline.svg" width="100%" alt="Animated architecture diagram: clients call REST APIs, which publish events to Apache Kafka. Stream workers built with Apache Flink and Celery consume the events, persist them to PostgreSQL, Redis and SQL Server, and push real-time updates back to clients over WebSockets." />
 
----
+Define service boundaries, model the events and API contracts, scale out with stateless services and caching, add logging, tracing and metrics, plan for failure with retries and dead-letter queues, then ship with Docker and CI/CD.
 
-## 🚀 Backend Architecture Focus
+## Tech stack
 
-### Event-Driven & Streaming Systems
-I design backend architectures around **asynchronous communication** and **event-driven patterns** to achieve high throughput and system decoupling:
+<img src="./assets/stack.svg" width="100%" alt="Tech stack. Languages: Python, C#, Go, TypeScript, JavaScript, C++. Backend: Django, Django REST Framework, FastAPI, ASP.NET Core, WebSockets. Events and streaming: Apache Kafka, Apache Flink, Celery, Redis. Data: PostgreSQL, SQL Server, SQLite. Cloud and DevOps: AWS, Docker, Linux, Git, GitHub Actions. AI engineering: RAG pipelines, LLM agents, vector search. Testing and UI: Pytest, Postman, React, Next.js." />
 
-- **Apache Kafka** for distributed event streaming, pub-sub messaging, and event sourcing
-- **Apache Flink** for real-time stream processing, windowed aggregations, and stateful computations
-- **Celery + Redis** for distributed task queues and background job processing
-- **WebSockets** for bidirectional real-time communication (live notifications, chat systems, dashboards)
+## Featured projects
 
-### Microservices Communication Patterns
-- **Synchronous:** REST APIs (Django REST Framework, FastAPI, ASP.NET Core)
-- **Asynchronous:** Message brokers (Kafka), task queues (Celery), event buses
-- **Real-time:** WebSocket connections for low-latency bidirectional updates
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/rag-knowledge-ops">KnowledgeOps AI</a></h3>
+      <p>RAG knowledge base that ingests documents and team data, answers questions with cited sources, and surfaces proactive insights. Hybrid retrieval with reranking and streamed answers.</p>
+      <p><code>FastAPI</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Chroma</code> <code>Celery</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/recruiter-agent">AI Recruitment Agent</a></h3>
+      <p>Autonomous job-hunting agent: discovers roles, scores them against a profile, tailors the résumé and cover letter, and applies through the browser with a human in the loop. <a href="https://recruiter-web-one.vercel.app">Live site</a></p>
+      <p><code>FastAPI</code> <code>pgvector</code> <code>Playwright</code> <code>n8n</code> <code>Docker</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/Kafka-monitoring-service">Kafka Monitoring System</a></h3>
+      <p>Distributed logging and monitoring built on Apache Kafka: microservices that stream, store and analyze logs in real time.</p>
+      <p><code>Django</code> <code>Apache Kafka</code> <code>PostgreSQL</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/System-alert">Stock Alert System</a></h3>
+      <p>REST API that tracks stock prices and emails alerts on threshold and duration rules, with background jobs, JWT auth and a pytest suite.</p>
+      <p><code>Django REST</code> <code>Celery</code> <code>Redis</code> <code>PostgreSQL</code> <code>AWS EC2</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/Ai-image-medical-helper">AI Medical Image Helper</a></h3>
+      <p>Full-stack assistant that helps clinicians review chest X-rays and skin lesions with model inference, doctor-only access and audit logging. An assistance tool, not a diagnostic device.</p>
+      <p><code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yousefalimansour/Real-Time-Chat">Real-Time Chat</a></h3>
+      <p>Chat application with live messaging over WebSockets, authentication and multiple rooms, split into focused Django apps.</p>
+      <p><code>Django</code> <code>WebSockets</code> <code>Python</code></p>
+    </td>
+  </tr>
+</table>
 
-### Use Cases I Build
-✅ Event-driven order processing systems with Kafka-based event sourcing  
-✅ Real-time analytics dashboards using Flink stream processing  
-✅ Distributed task orchestration with Celery for ML model training pipelines  
-✅ Live notification systems using WebSockets and Redis pub-sub  
-✅ Microservices architectures with API gateways and service mesh patterns  
-
----
-
-## 📡 Real-Time & Distributed Systems Expertise
-
-### Kafka + Flink Pipelines
-Building data pipelines that process millions of events per second:
-- **Kafka producers/consumers** for event ingestion from multiple microservices
-- **Flink streaming jobs** for real-time aggregations, transformations, and anomaly detection
-- **Fault tolerance** with checkpointing and exactly-once semantics
-- **Schema evolution** using Avro/Protobuf for backward compatibility
-
-### WebSockets vs REST: When to Use What
-| **Scenario** | **Technology** | **Why** |
-|--------------|----------------|---------|
-| CRUD operations, data fetching | REST APIs | Stateless, cacheable, simple |
-| Live price updates, notifications | WebSockets | Bidirectional, low-latency, persistent connections |
-| Event broadcasting to multiple services | Kafka | Durable, scalable, decoupled pub-sub |
-| Background job processing | Celery | Async task execution, retries, scheduling |
-
----
-
-## 🧩 How I Build Scalable Systems
-
-**1️⃣ Design:** Start with domain modeling, define service boundaries, choose communication patterns (sync vs async)
-
-**2️⃣ Data Flow:** Design event schemas, API contracts, and data pipelines (Kafka topics, Flink transformations)
-
-**3️⃣ Scaling:** Implement horizontal scaling with load balancers, stateless services, distributed caching (Redis)
-
-**4️⃣ Observability:** Add structured logging, distributed tracing (OpenTelemetry), and metrics (Prometheus)
-
-**5️⃣ Fault Tolerance:** Circuit breakers, retries with exponential backoff, dead-letter queues, health checks
-
-**6️⃣ Deployment:** Dockerize services, automate with CI/CD pipelines, deploy to AWS (EC2, ECS, Lambda)
-
----
-
-## 🛠️ Technical Stack
-
-### 🔧 Core Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-555555?style=for-the-badge&logo=intel&logoColor=white)
-
-### ⚡ Backend Frameworks & APIs
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-
-### 📊 Streaming & Messaging
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
-![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-
-### 💾 Databases & Storage
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-007ACC?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### 🧪 Testing & Quality
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### 🎨 Frontend (for Full-Stack Context)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
----
-
-## 🏆 Certifications
-
-**AWS Certified Cloud Practitioner**  
-Amazon Web Services • [Verify Credential](https://www.credly.com/badges/8bd1e4b9-1601-481c-ad58-4df72ca33ab3/linked_in?t=slqzdf)
-
----
-
-## 🎓 Education
-
-**Mansoura University**  
-Bachelor of Computer and Information Science  
-2022 - Present
-
----
-
-## 📈 GitHub Activity
+## Contribution arcade
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yousefalimansour&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" alt="Yousef's GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yousefalimansour&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top Languages"/>
-</div>
-<br/>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yousefalimansour&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub Streak"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man playing through my GitHub contribution graph" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/github-snake.svg" width="100%" alt="Snake eating my GitHub contribution graph" />
+</picture>
+
+<img src="https://raw.githubusercontent.com/yousefalimansour/yousefalimansour/output/profile-night-rainbow.svg" width="100%" alt="3D view of my GitHub contributions with language and activity statistics" />
+
+<sub>Redrawn every day from my real contribution graph by a GitHub Action.</sub>
+
 </div>
 
----
+## Credentials
 
-<div align="center">
-  <h3>🤝 Open to Opportunities</h3>
-  <p>
-    I'm interested in collaborating on <strong>distributed backend systems</strong>, <strong>real-time data pipelines</strong>, and <strong>event-driven microservices</strong>. Open to contributing to open-source projects and exploring roles in cloud-native application development, streaming architectures, and AI integration at scale.
-  </p>
-  
-  <sub>© 2024 Yousef Ali Mansour. All rights reserved.</sub>
-</div>
+- **AWS Certified Cloud Practitioner**, Amazon Web Services · [Verify credential](https://www.credly.com/badges/8bd1e4b9-1601-481c-ad58-4df72ca33ab3/linked_in?t=slqzdf)
+- **B.Sc. in Computer and Information Science**, Mansoura University · 2022 to present
+
+<img src="./assets/footer.svg" width="100%" alt="Building systems that scale, systems that stream, systems that last." />

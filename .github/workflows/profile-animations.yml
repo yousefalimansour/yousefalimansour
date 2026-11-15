@@ -1,0 +1,85 @@
+name: Profile animations
+
+# Regenerates the animated contribution graphics shown in the profile README
+# (snake, Pac-Man, 3D contribution calendar) and publishes them to the `output` branch.
+
+on:
+  schedule:
+    - cron: "23 2 * * *" # every day at 02:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/profile-animations.yml"
+      - "scripts/arcade.mjs"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-animations
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write # push the generated files to the `output` branch
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Fetch arcade library (pinned commit)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: abozanona/pacman-contribution-graph
+          ref: 7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
+          path: .arcade
+          sparse-checkout: dist
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - name: Pac-Man
+        # Kept non-fatal so the snake and 3D calendar still publish if this step breaks.
+        continue-on-error: true
+        run: node scripts/arcade.mjs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ github.token }}
+          ARCADE_LIB: .arcade/dist/pacman-contribution-graph.min.js
+          GAMES: pacman
+
+      - name: 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect
+        run: |
+          cp profile-3d-contrib/*.svg dist/
+          ls -la dist
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update profile animations
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
